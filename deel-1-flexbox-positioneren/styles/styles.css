@@ -16,3 +16,31 @@
     flex: 1;
 }
 
+
+.opdracht-3 ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opdracht-3 .li-1-opdr-3 {
+    align-self: flex-start;
+}
+
+.opdracht-3 .li-2-opdr-3 {
+    align-self: center;
+    /*background-color: red;*/
+    /*border-color: hotpink;*/
+}
+
+.opdracht-3 .li-3-opdr-3 {
+    align-self: flex-end;
+}
+
+
+.opdracht-4 ul {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-around;*/
+    gap: 10px 10px
+    /*align-items: stretch;*/
+}
