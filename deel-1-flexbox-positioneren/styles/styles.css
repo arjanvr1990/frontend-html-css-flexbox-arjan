@@ -1,1 +1,18 @@
-/*Schrijf hier jouw CSS*/
+.opdracht-1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*align-items: center;*/
+    /*border-style: solid;*/
+    /*border-color: purple;*/
+}
+
+.opdracht-2 ul{
+    display: flex;
+    flex-direction: row;
+}
+/*hier had ik ChatGPT voor nodig om hier uit te komen*/
+.opdracht-2 li {
+    flex: 1;
+}
+
